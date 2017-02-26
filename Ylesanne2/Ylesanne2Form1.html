@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Ülesanne 2 ; Form 1</title>
+</head>
+
+<form action="Ylesanne2Form1.html" method="GET" accept-charset="UTF-8">
+
+
+<!--Dropdown selection-->
+Vali oma lemmik aastaaeg:
+<select name="Aastaajad">
+	<option value="Kevad">Kevad</option>
+	<option value="Suvi">Suvi</option>
+	<option value="Sügis">Sügis</option>
+	<option value="Talv">Talv</option>
+</select>
+
+<br><br>
+
+<button type="button" onclick="alert('Ikka vajutasid!')">Ära vajuta siia!</button>
+
+<br><br><br>
+
+<!--Text field-->
+Tekst:
+<br>
+<textarea name="message" rows="10" cols="50">
+
+</textarea>
+<br><br><br>
+
+<!--Grouped dropdown menu-->
+<p>Vali lemmik maius</p>
+<select>
+	<optgroup label="Kommid">
+		<option value="Pulgakomm">Pulgakomm</option>
+		<option value="Klaaskomm">Klaaskomm</option>
+		<option value="Nätsukomm">Nätsukomm</option>
+		<option value="Pumatikomm">Pumatikomm</option>
+	</optgroup>
+	<optgroup label="Muud">
+		<option value="Vahvel">Vahvel</option>
+		<option value="Sokolaad">Sokolaad</option>
+		<option value="Jäätis">Jäätis</option>
+		<option value="Moos">Moos</option>
+	</optgroup>
+</select>
+<br><br>
+
+
+<!--Chekbox-->
+<p>Kas maakera on lapik?</p>
+	<input type="checkbox" name="Maakera" value="Jah">Maakera on lapik
+	<br>
+	<input type="checkbox" name="Maakera" value="Ei">Maakera ei ole lapik
+	<br>
+	<input type="checkbox" name="Maakera" value="Lollküsimus">Loll küsimus
+	<br>
+	<input type="checkbox" name="Maakera" value="Kahtlev">Nii ja naa
+<br><br>
+
+
+<!--personal info input-->
+<fieldset>
+	<legend>Personaalne info:</legend>
+	<br>
+	<input type="text" name="Nimi" placeholder="Nimi">
+	<br><br>
+	<input type="text" name="Email" placeholder="Email">
+	<br><br>
+</fieldset>
+
+
+<!--radiobutton-->
+<p>Lemmikloom:</p>
+	<label for="Kass">Kass</label>
+	<input type="radio" name="lemmik" id="Kass" value="Kass">
+	<br>
+	<label for="Koer">Koer</label>
+	<input type="radio" name="lemmik" id="Koer" value="Koer">
+	<br>
+	<label for="Lind">Lind</label>
+	<input type="radio" name="lemmik" id="Lind" value="Lind">
+	<br>
+	<label for="Kala">Kala</label>
+	<input type="radio" name="lemmik" id="Kala" value="Kala">
+	<br>
+	<label for="Muu">Muu...</label>
+	<input type="radio" name="lemmik" id="Muu" value="Muu">
+<br>
+<br>
+
+<!--input button-->
+<input type="submit" value="Sisesta">
+
+</form>
+</html>
