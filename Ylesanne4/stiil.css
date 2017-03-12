@@ -1,0 +1,74 @@
+#ringid {
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	left: 700px;
+	top: 300px;
+}
+
+
+div {
+	position: absolute;
+}
+
+
+
+#ringid div:nth-child(1) {
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	border: 20px solid #FF0000;
+	left: 45%;
+	top: 45%;
+}
+#ringid div:nth-child(2) {
+	height: 20%;
+	width: 20%;
+	border-radius: 50%;
+	border: 20px solid #FFFFFF;
+ 	left:40%;
+	top:40%;
+}
+#ringid div:nth-child(3) {
+	height: 40%;
+	width: 40%;
+	border-radius: 50%;
+	border: 20px solid #FF0000;
+	left:30%;
+	top:30%;
+}
+#ringid div:nth-child(4) {
+	height: 60%;
+	width: 60%;
+	border-radius: 50%;
+	border: 20px solid #FFFFFF;
+ 	left:20%;
+	top:20%;
+}
+#ringid div:nth-child(5) {
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
+	border: 20px solid #FF0000;
+	left:10%;
+	top:10%;
+}
+#ringid div:nth-child(6) {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 20px solid #FFFFFF;
+	left:0%;
+	top:0%;
+}
+
+
+/*Lisasin pildi otse body-le, nii näeb parem välja*/
+body {
+	background-color:#0A24A9;
+	background-image: url('http://enos.itcollege.ee/~ttanav/VRI/Kodused/04/duck.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0% 100%;
+	background-size: 100%;
+}
